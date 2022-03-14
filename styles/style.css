@@ -44,3 +44,50 @@ header ul{
   display: flex;
   gap: 16px;
 }
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  padding: 48px;
+  gap: 96px;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  width: 600px;
+}
+
+.hero h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--hero-main-text-color);
+  padding: 16px;
+}
+
+.hero p{
+  font-size: 18px;
+  color: var(--hero-secondary-text-color);
+  padding: 16px;
+  line-height: 1.4;
+}
+
+button{
+  align-self: flex-start;
+  margin: 16px;
+  padding: 8px 24px;
+  background-color: var(--button-color);
+  color: var(--hero-secondary-text-color);
+  font-weight: bold;
+  border-style: none;
+  border-radius: 8px;
+  
+}
+
+#hero-image{
+  width: 600px;
+  height: 300px;
+}
