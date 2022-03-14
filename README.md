@@ -6,4 +6,4 @@ Demonstrates the use of flexbox to align HTML elements in a webpage. Made with H
 
 The picture used where taken from [Fandom's wiki](https://half-life.fandom.com/wiki/Main_Page) of the halflife series.
 
-![Aperture Landing Page demo](/images/aperture-demo.gif "Page preview")
+![](https://github.com/bofmar/landing-page/blob/main/images/aperture-demo.gif)
