@@ -1,6 +1,6 @@
-/***********
-  Variables
-************/
+/*********
+  Global
+**********/
 
 :root{
   --dark-blue: #1f2937;
@@ -15,7 +15,7 @@
 body{
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: flex;
   flex-direction: column;
 }
@@ -24,6 +24,10 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+/********
+  Banner
+*********/
 
 header{
   display: flex;
@@ -44,6 +48,10 @@ header ul{
   display: flex;
   gap: 16px;
 }
+
+/*******
+  Hero
+********/
 
 .hero{
   display: flex;
@@ -90,4 +98,42 @@ button{
 #hero-image{
   width: 600px;
   height: 300px;
+}
+
+/*********
+  Main
+**********/
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1{
+  font-size: 36px;
+  font-weight: 900;
+  margin: 36px 0 48px 0;
+}
+
+main img{
+  width: 200px;
+  height: 200px;
+  border: var(--button-color);
+  border-radius: 16px;
+}
+
+main p{
+  font-size: 16px;
+  color: var(--quote-text-color);
+  width: 190px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 36px;
 }
